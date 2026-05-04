@@ -11,72 +11,7 @@
 <!-- Iconos Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="style.css"
-</head>
-<body>
-  <header>
-    <h1><i class="fas fa-robot"></i> Mundo IA</h1>
-    <p>Explorando el futuro de la inteligencia artificial</p>
-  </header>
-
-  <nav>
-    <a href="#articulos"><i class="fas fa-newspaper"></i> Artículos</a>
-    <a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a>
-  </nav>
-
-  <section id="articulos">
-    <h2>Últimos artículos</h2>
-    <div class="cards">
-      <div class="card">
-        <i class="fas fa-heartbeat"></i>
-        <h3>IA en la medicina</h3>
-        <p>Cómo los algoritmos ayudan a diagnosticar enfermedades y mejorar tratamientos.</p>
-      </div>
-      <div class="card">
-        <i class="fas fa-industry"></i>
-        <h3>Automatización inteligente</h3>
-        <p>Robots y sistemas que optimizan procesos industriales y logísticos.</p>
-      </div>
-      <div class="card">
-        <i class="fas fa-paint-brush"></i>
-        <h3>Creatividad artificial</h3>
-        <p>La IA generativa en música, arte y escritura está transformando la cultura.</p>
-      </div>
-    </div>
-  </section>
-  <center><img src="ia1.jpeg" width="300" height="300"></center>
-  <section id="contacto">
-    <h2>Contáctanos</h2>
-    <form action="https://formspree.io/f/tu-endpoint" method="POST">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
-      <!-- Redirección a página de agradecimiento -->
-      <input type="hidden" name="_next" value="gracias.html">
-
-      <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
-    </form>
-  </section>
-  <a href="https://www.facebook.com" target="_blank">
-   <center> <img src="facebook.png" alt="Visita nuestro Facebook" width="30"></center>
-</a>
-  <a href="https://www.instagram.com" target="_blank">
-   <center> <img src="instagram.jpeg" alt="Visita nuestro Facebook" width="30"></center>
-</a>
-  
- <a href="paginaW.html" class="boton-inicio">Inicio</a>
-  <footer>
-    <p>&copy; 2026 Mundo IA. Todos los derechos reservados.</p>
-  </footer>
-</body>
-</html>
-# Paginaw
-<style>
+  <style>
 .titulo
 *{
   margin:0;
@@ -270,3 +205,69 @@ form button:hover{
   .cards{grid-template-columns:1fr;}
 
 </style>
+
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-robot"></i> Mundo IA</h1>
+    <p>Explorando el futuro de la inteligencia artificial</p>
+  </header>
+
+  <nav>
+    <a href="#articulos"><i class="fas fa-newspaper"></i> Artículos</a>
+    <a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a>
+  </nav>
+
+  <section id="articulos">
+    <h2>Últimos artículos</h2>
+    <div class="cards">
+      <div class="card">
+        <i class="fas fa-heartbeat"></i>
+        <h3>IA en la medicina</h3>
+        <p>Cómo los algoritmos ayudan a diagnosticar enfermedades y mejorar tratamientos.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-industry"></i>
+        <h3>Automatización inteligente</h3>
+        <p>Robots y sistemas que optimizan procesos industriales y logísticos.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Creatividad artificial</h3>
+        <p>La IA generativa en música, arte y escritura está transformando la cultura.</p>
+      </div>
+    </div>
+  </section>
+  <center><img src="ia1.jpeg" width="300" height="300"></center>
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form action="https://formspree.io/f/tu-endpoint" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <!-- Redirección a página de agradecimiento -->
+      <input type="hidden" name="_next" value="gracias.html">
+
+      <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+    </form>
+  </section>
+  <a href="https://www.facebook.com" target="_blank">
+   <center> <img src="facebook.png" alt="Visita nuestro Facebook" width="30"></center>
+</a>
+  <a href="https://www.instagram.com" target="_blank">
+   <center> <img src="instagram.jpeg" alt="Visita nuestro Facebook" width="30"></center>
+</a>
+  
+ <a href="paginaW.html" class="boton-inicio">Inicio</a>
+  <footer>
+    <p>&copy; 2026 Mundo IA. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+# Paginaw
